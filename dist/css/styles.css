@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Bare v5.0.2 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2022 Start Bootstrap
+* Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
 */
 /*!
@@ -10865,12 +10865,27 @@ body {
   font-size: 1.2em;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   font-family: "Raleway", sans-serif;
 }
 
 .site-footer {
   color: white;
+  margin-top: 50px;
   margin-bottom: 0;
   padding: 1.5rem;
+  text-align: center;
+}
+.site-footer a {
+  color: gray;
 }
