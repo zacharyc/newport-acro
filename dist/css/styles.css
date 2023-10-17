@@ -10889,3 +10889,14 @@ h6,
 .site-footer a {
   color: gray;
 }
+
+.acroClass {
+  margin: 0.5rem 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
